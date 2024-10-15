@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 168d82507c749fc4c84e6e98a5aa3682, type: 3}
+  m_Name: Health Potion
+  m_EditorClassIdentifier: 
+  itemName: Health Potion
+  itemDescription: Ohh It feels warm in your hand ! .
+  itemImage: {fileID: 4526138676458511216, guid: 18a32ff746e3e6849aea0a59dd97e79f, type: 3}
+  numberHeld: 1
+  usable: 1
+  unique: 0
+  thisEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5162023019485216569, guid: 208f9484f3b97184aaf67e3045220669, type: 3}
+        m_TargetAssemblyTypeName: HealthReaction, Assembly-CSharp
+        m_MethodName: Use
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 5
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
