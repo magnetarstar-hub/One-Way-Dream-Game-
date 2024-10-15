@@ -1,7 +1,9 @@
 # 🌌 One Way Dream
 
 Welcome to **One Way Dream** — an upcoming adventure game where reality and dreams collide! 🌙✨
-
+![Screenshot of One Way Dream](./Map.png)
+![Screenshot of One Way Dream](./Home.png)
+![Screenshot of One Way Dream](./Start%20UI.png) 
 ## 🛠️ Project Status: Pre-Alpha
 The game is still in **early development**, and there's a lot to come! Stay tuned for updates as we bring this dream to life!
 
