@@ -15,7 +15,12 @@ public class Enemy : MonoBehaviour
 
     [Header("State Machine")]
     public EnemyState currentState;
-
+    /*
+    [Header("Patrol Settings")]
+    [Tooltip("List of waypoints for the enemy to patrol.")]
+    public Transform[] waypoints;
+    private int currentWaypointIndex = 0;
+    */
     [Header("Enemy Stats")]
     public FloatValue maxHealth;
     public float health;
@@ -68,6 +73,25 @@ public class Enemy : MonoBehaviour
             }
         }
     }
+
+
+    /*
+    private void Patrol()
+    {
+        if (waypoints.Length == 0) return;
+
+        Transform targetWaypoint = waypoints[currentWaypointIndex];
+        transform.position = Vector2.MoveTowards(transform.position, targetWaypoint.position, moveSpeed * Time.deltaTime);
+
+        if (Vector2.Distance(transform.position, targetWaypoint.position) < 0.1f)
+        {
+            currentWaypointIndex = (currentWaypointIndex + 1) % waypoints.Length;
+        }
+    }
+
+    */
+
+
 
     private void DeathEffect()
     {
